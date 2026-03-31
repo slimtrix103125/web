@@ -3,36 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crackus • Free Luau Obfuscator</title>
+  <title>Crackus • Free Prometheus Obfuscator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
     <header>
       <h1>CRACKUS</h1>
-      <p>Free & Advanced Luau / Lua Obfuscator</p>
+      <p>Free Prometheus Luau / Lua Obfuscator</p>
     </header>
 
     <div class="editor-grid">
-      <div class="panel">
+      <div class="panel input-panel">
         <h2>Input Code</h2>
-        <textarea id="input" placeholder="Paste your Luau / Lua code here..."></textarea>
+        <textarea id="input" placeholder="Paste your Luau or Lua code here..."></textarea>
       </div>
 
-      <div class="panel">
+      <div class="panel output-panel">
         <h2>Obfuscated Output</h2>
         <textarea id="output" readonly></textarea>
-        <button id="copyBtn">Copy Obfuscated Code</button>
+        <button id="copyBtn">Copy</button>
       </div>
     </div>
 
     <div class="controls">
-      <button id="obfuscateBtn">OBFUSCATE CODE</button>
       <select id="strength">
         <option value="normal">Normal</option>
         <option value="strong">Strong</option>
-        <option value="extreme">Extreme (Anti-Decompile)</option>
+        <option value="extreme">Extreme</option>
       </select>
+      <button id="obfuscateBtn">OBFUSCATE WITH PROMETHEUS</button>
     </div>
   </div>
 
